@@ -29,34 +29,9 @@
     combos {
         compatible = "zmk,combos";
 
-        BT0 {
-            bindings = <&bt BT_SEL 0>;
-            key-positions = <0 1>;
-        };
-
-        BT2 {
-            bindings = <&bt BT_SEL 1>;
-            key-positions = <1 2>;
-        };
-
-        BT3 {
-            bindings = <&bt BT_SEL 3>;
-            key-positions = <3 4>;
-        };
-
-        BT4 {
-            bindings = <&bt BT_SEL 4>;
-            key-positions = <10 11>;
-        };
-
         BT_All_CLA {
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <28 16>;
-        };
-
-        BT2 {
-            bindings = <&bt BT_SEL 2>;
-            key-positions = <2 3>;
         };
     };
 
