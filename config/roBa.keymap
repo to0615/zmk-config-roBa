@@ -39,11 +39,6 @@
             key-positions = <1 2>;
         };
 
-        BT2 {
-            bindings = <&bt BT_SEL 2>;
-            key-positions = <2 3>;
-        };
-
         BT3 {
             bindings = <&bt BT_SEL 3>;
             key-positions = <3 4>;
@@ -54,14 +49,14 @@
             key-positions = <10 11>;
         };
 
-        BT_CLA {
-            bindings = <&bt BT_CLR_ALL>;
-            key-positions = <27 28>;
-        };
-
         BT_All_CLA {
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <28 16>;
+        };
+
+        BT2 {
+            bindings = <&bt BT_SEL 2>;
+            key-positions = <2 3>;
         };
     };
 
