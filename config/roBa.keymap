@@ -112,7 +112,7 @@
 &trans           &trans         &trans        &trans        &kp SPACE             &kp BACKSPACE             &trans                 &trans                                                    &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp LS(PAGE_UP) PAGE_DOWN>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         NUM {
