@@ -84,6 +84,7 @@
             label = "ENCODER_MSC_DOWN_UP";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
             tap-ms = <20>;
         };
     };
@@ -99,9 +100,7 @@
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 5 LANG2  &lt 6 SPACE  &mt LEFT_SHIFT LANG1      &kp BACKSPACE  &lt 1 ENTER                             &kp ESCAPE
             >;
 
-            sensor-bindings = 
-                <&inc_dec_kp PG_UP PAGE_DOWN>,
-                <&encoder_msc_down_up>;
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         FUNCTION {
