@@ -101,7 +101,7 @@
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 5 LANG2  &lt 6 SPACE  &mt LEFT_SHIFT LANG1      &kp BACKSPACE  &lt 1 ENTER                             &kp ESCAPE
             >;
 
-            ensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         FUNCTION {
